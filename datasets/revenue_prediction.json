@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1687815188632
+    "lastModifiedOn": 1687815232522
   },
   "tags": [],
   "params": {
@@ -195,7 +195,10 @@
               ]
             }
           },
-          "columns": []
+          "columns": [
+            "customer_id",
+            "ip"
+          ]
         }
       }
     ],
