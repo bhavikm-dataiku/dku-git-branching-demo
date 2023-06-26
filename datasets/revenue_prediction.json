@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1687815232522
+    "lastModifiedOn": 1687817766993
   },
   "tags": [],
   "params": {
@@ -245,7 +245,13 @@
     "displayedState": {
       "partition": "NP",
       "columns": [],
-      "metrics": []
+      "metrics": [
+        "check:CHECK:Value in range of null",
+        "reporting:METRICS_COMPUTATION_DURATION",
+        "records:COUNT_RECORDS",
+        "cell:customer_id:Cell value probe test",
+        "cell:ip:Cell value probe test"
+      ]
     }
   },
   "metricsChecks": {
