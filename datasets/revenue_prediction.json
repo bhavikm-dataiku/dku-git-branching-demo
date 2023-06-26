@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1687815155445
+    "lastModifiedOn": 1687815188632
   },
   "tags": [],
   "params": {
@@ -167,7 +167,7 @@
         "enabled": true,
         "computeOnBuildMode": "NO",
         "meta": {
-          "name": "Cell value",
+          "name": "Cell value probe test",
           "level": 9
         },
         "configuration": {
@@ -188,7 +188,7 @@
                 {
                   "input": "ip",
                   "operator": "contains",
-                  "col": "ip",
+                  "col": "customer_id",
                   "string": "1235",
                   "num": 0.0
                 }
