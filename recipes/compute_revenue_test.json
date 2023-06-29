@@ -4,10 +4,12 @@
   "optionalDependencies": false,
   "params": {
     "envSelection": {
-      "envMode": "INHERIT"
+      "envMode": "EXPLICIT_ENV",
+      "envName": "py38"
     },
     "containerSelection": {
-      "containerMode": "INHERIT"
+      "containerMode": "EXPLICIT_CONTAINER",
+      "containerConf": "eks-default"
     },
     "skipPrerunValidate": false
   },
@@ -40,11 +42,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688004430937
+    "lastModifiedOn": 1688004445778
   },
   "creationTag": {
     "versionNumber": 0,
