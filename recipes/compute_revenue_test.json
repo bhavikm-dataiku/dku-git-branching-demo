@@ -5,7 +5,7 @@
   "params": {
     "envSelection": {
       "envMode": "EXPLICIT_ENV",
-      "envName": "py38"
+      "envName": "py36env"
     },
     "containerSelection": {
       "containerMode": "EXPLICIT_CONTAINER",
@@ -42,11 +42,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688004501978
+    "lastModifiedOn": 1688004818162
   },
   "creationTag": {
     "versionNumber": 0,
