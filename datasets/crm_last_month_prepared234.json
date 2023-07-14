@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1689293913573
+    "lastModifiedOn": 1689293923944
   },
   "creationTag": {
     "versionNumber": 0,
@@ -89,6 +89,7 @@
     "columns": [
       {"name":"customer_id","type":"string","maxLength":1000},
       {"name":"birth","type":"string","maxLength":1000},
+      {"name":"birth_parsed","type":"date"},
       {"name":"price_first_item_purchased","type":"double","maxLength":1000},
       {"name":"gender","type":"string","maxLength":1000},
       {"name":"revenue","type":"bigint","maxLength":1000}
